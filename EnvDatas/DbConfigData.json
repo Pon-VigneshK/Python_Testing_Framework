@@ -1,0 +1,14 @@
+{
+  "DbCredentials": {
+    "HostName": "localhost",
+    "DbUsername": "root",
+    "DbuserPassword": ""
+  },
+  "SqlQuery": {
+    "Testdata_Query": [
+    ],
+    "InsertQuery": [
+      "INSERT INTO atlas_api_automation_results.$env_atlas_$modulename_status (testcase_name, script_status, response_code,response_time) VALUES (value);"
+    ]
+  }
+}
